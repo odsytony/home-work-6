@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div>
+    <a href="index.html">back</a>
+    <a href="table1.html">Table 1</a>
+  </div>
+
+  <table class="wt90">
+    <caption>Батьківська таблиця</caption>
+    <tr>
+      <td class="wt40" colspan="2">1-2</td>
+      <td class="wt60">3</td>
+    </tr>
+    <tr>
+      <td class="wt28">4</td>
+      <td colspan="2" rowspan="2">
+        <table class="wt2-80">
+          <caption>дочірня табліця</caption>
+          <tr>
+            <td>1</td>
+            <td rowspan="3">2-5-8</td>
+            <td class="h200" rowspan="2">3-6</td>
+          </tr>
+          <tr>
+            <td class="h200" rowspan="2">4-7</td>
+          </tr>
+          <tr>
+            <td>9</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td class="wt28">7</td>
+    </tr>
+  </table>
+
+</body>
+
+</html>

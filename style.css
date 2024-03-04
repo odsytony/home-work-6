@@ -1,0 +1,39 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+td {
+  border: 1px solid rgb(0, 0, 0);
+  height: 50px;
+  width: 33.33%;
+}
+
+.wt75 {
+  width: 75%;
+}
+
+.h200 {
+  height: 200px;
+}
+
+.wt2-80 {
+  width: 80%;
+}
+
+.wt90 {
+  width: 90%;
+}
+
+.wt40 {
+  width: 40%;
+}
+
+.wt60 {
+  width: 60%;
+}
+
+.wt28 {
+  width: 28%;
+}
